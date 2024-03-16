@@ -382,7 +382,7 @@ def run_img2img(
 
         result = pipeline(
             prompt=prompt,
-            image=init_image,
+            init_image=init_image,
             strength=denoising_strength,
             num_inference_steps=num_inference_steps,
             guidance_scale=guidance_scale,
